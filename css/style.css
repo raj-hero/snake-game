@@ -22,10 +22,33 @@
 }
 .head{
     background-color: red;
+    border: 2px solid purple;
+    transform: scale(1.02);
+    border-radius: 9px;
 }
 .snake{
     background-color: purple;
+    border: .25vmin solid white;
+    border-radius: 12px;
 }
 .food{
     background-color: rgb(78, 78, 4);
+    border: .25vmin solid black;
+    border-radius: 8px;
+}
+#scoreBox
+{
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+}
+#hiscoreBox{
+    position: absolute;
+    top: 50px;
+    right: 170px;
+    font-size: 39px;
+    font-weight: bold;
+
 }
