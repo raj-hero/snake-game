@@ -50,5 +50,23 @@
     right: 170px;
     font-size: 39px;
     font-weight: bold;
+    
+}
+/* import food,{inputDir,foodSound,gameOverSound,moveSound,score,speed,lastPaintTime,snakeArr} from './variables.js' */
 
+@media screen and (max-width:1300px){
+    #board{
+        width: 60vmin;
+        height: 62vmin;
+    }
+    #scoreBox{
+        left:0px;
+        right: 0px;
+        text-align: center;
+    }
+    #hiscoreBox{
+        left:0px;
+        right: 0px;
+        text-align: center;
+    }
 }
